@@ -82,4 +82,4 @@ main>p {
     line-height: 1.6;
 }
 
-@media(width >= 480px) {.collection-card}
+@media(width >= 480px) {.collection-card flex-basis: 45%;}

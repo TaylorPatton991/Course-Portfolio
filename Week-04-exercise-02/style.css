@@ -43,7 +43,7 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .collection-card {

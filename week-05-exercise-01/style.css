@@ -94,10 +94,13 @@ button {
     padding: 16px 32px;
     border: 2px solid chocolate;
     font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, backgound-color 0.4s ease;
 }
 
 .button-03:hover {
-
+    transform: translateX(8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: brown;
 }
 
 .button-04 {
@@ -106,10 +109,12 @@ button {
     padding: 16px 32px;
     border: 2px solid aqua;
     font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button-04:hover {
-
+    transform: rotateX(180deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .button-05 {
@@ -118,10 +123,12 @@ button {
     padding: 16px 32px;
     border: 2px solid blueviolet;
     font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button-05:hover {
-
+    background-color: purple;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .button-06 {
@@ -130,8 +137,12 @@ button {
     padding: 16px 32px;
     border: 2px solid crimson;
     font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .button-06:hover {
-
+    transform: rotateY(180deg);
+    background-color: #fafafa;
+    color: crimson;
+    border-color: crimson;
 }

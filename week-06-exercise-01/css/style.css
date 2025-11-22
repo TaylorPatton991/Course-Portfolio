@@ -147,15 +147,40 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  position: fixed;
+  top: 32px;
+  left: 32px;
+  width: 200px;
+}
 
-.nav-custom ul {}
+.nav-custom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-.nav-custom li {}
+.nav-custom li {
+  margin-bottom: 8px;
+}
 
-.nav-custom a {}
+.nav-custom a {
+  display: block;
+  padding: 8px 16px;
+  color: gray;
+  background-color: #fafafa;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-.nav-custom a:hover {}
+.nav-custom a:hover {
+  background-color: cornflowerblue;
+  color: #ffffff;
+  animation: opacity 1.5s ease-in-out;
+  transform: translateX(50%);
+  box-shadow: #333333;
+}
 
 @media (width >=480px) {}
 
